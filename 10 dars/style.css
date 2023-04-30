@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: white;
+  }
+  
+  .quest {
+    width: 500px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: blue;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    border-radius: 30px;
+  }
+  
+  .answers {
+    display: flex;
+    margin-top: 30px;
+  }
+  .quest h3 {
+    color: white;
+    margin: 30px 20px;
+  }
+  .answers p {
+    padding: 15px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .answers p:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+  }
+  
+  .result {
+    margin-top: 30px;
+    padding: 0 20px;
+  }
+  
+  .false {
+    background-color: red;
+    color: white;
+    padding: 10px;
+  }
+  .true {
+    background-color: green;
+    color: white;
+    padding: 5px 10px;
+  }
+  .yozuv{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .javob{
+    display: flex;
+    margin-top: 10px;
+  }
